@@ -1,1 +1,1 @@
-React learn by Prince Kumar..ok
+React learn by Prince Kumar
