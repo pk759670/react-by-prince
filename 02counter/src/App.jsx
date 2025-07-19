@@ -4,9 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  let [counter, setCounter] = useState(15)
+  const [counter, setCounter] = useState(15)
   const addValue = () => {
-    // setCounter(counter+1)
+    // setCounter(prev => prev +1)
+    // setCounter(prev => prev +1)
+    // setCounter(prev => prev +1)
+    // setCounter(prev => prev +1)
     setCounter(prev => (prev < 20 ? prev + 1 : prev)); 
   }
 
